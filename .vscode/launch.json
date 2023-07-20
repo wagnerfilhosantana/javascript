@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "http://C:\\Users\\wagne\\OneDrive\\Documentos\\GitHub\\javascrip\\cursosjs interm\\exercicios\\aula009",
+            "request": "launch",
+            "url": "http://C:\\Users\\wagne\\OneDrive\\Documentos\\GitHub\\javascrip\\cursosjs interm\\exercicios\\aula009"
+        }
+    ]
+}
