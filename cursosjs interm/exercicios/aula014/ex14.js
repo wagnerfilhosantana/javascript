@@ -1,7 +1,7 @@
 let semanas = 4
 
 switch(semanas) {
-    case 1: console.log("Domingo-Feira")
+    case 1: console.log("Domingo")
     break
     case 2: console.log("Segunda-Feira")
     break
@@ -13,7 +13,7 @@ switch(semanas) {
     break
     case 6: console.log("Sexta-Feira")
     break
-    case 7: console.log("Sábado-Feira")
+    case 7: console.log("Sábado")
     break
     default: console.log("Esse dia da semana não existe")
     break
