@@ -26,8 +26,8 @@ function contar() {
        
        }
        else {
-        for(var c = i; c >= f; c -= p)
-       { res.innerHTML += ` ${c} \u{1F449}`}
+        for( i >= f; i -= p;)
+       { res.innerHTML += ` ${i} \u{1F449}`}
        }
        
        res.innerHTML += `\u{1F605}` 
