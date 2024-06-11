@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+}
+
+:root{
+    --brown-dark: #806516;
+    --brown-darker: #99791a;
+    --brown-light: #4b3c156e;
+    --yellow-dark: #CCA223;
+    --yellow-darker: #E6B627; 
+    --dark: #867954;
+}
+
+body{
+    background-color: var(--dark);
+    overflow: hidden;
+}
+
+.checkbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 10px;
+}
+
+.mainbox{
+    background-color: var(--brown-dark);
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 600px;
+    padding: 10px 5px;
+    box-shadow: #00000046 5px 5px 10px;
+    border-radius: 5px;
+}
+
+h3{
+    text-align: center;
+    letter-spacing: 0.09em;
+    font-weight: 500;
+}
+
+#fibonacciNumber{
+    height: 30px;
+    background-color: var(--dark);
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    padding-left: 4px;
+    text-align: center;
+}
+
+#fibonacciNumber[type=number]::-webkit-inner-spin-button,
+#fibonacciNumber[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#fibonacciNumber[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+span{
+    margin-top: 15px;
+    background-color: #8679544f;
+    width: 142px;
+    padding: 3px;
+    border-radius: 3px;
+    letter-spacing: 0.04em;
+}
+
+.resbottom{
+    width:  70px;
+    border-radius: 3px;
+    border: none;
+    margin: 4px;
+    padding: 3px;
+    background-color: var(--dark);
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.resbottom:hover{
+    color: var(--dark);
+    background-color: var(--brown-light);
+    transition: 0.3s;
+}
+
+#numberList{
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    background-color: var(--brown-darker);
+}
